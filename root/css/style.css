@@ -1,0 +1,153 @@
+/*
+  ========================================
+  ALL
+  ========================================
+*/
+html {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.hero-text
+{
+  width: 100%;
+  padding-top: 2rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+@media (min-width: 1440px){
+  .container, .hero {
+    max-width: 1000px;
+  }
+
+  .hero-text {
+    width: 30%;
+  }
+}
+
+@media (min-width: 992px){
+  .container, .hero{
+    max-width: 1000px;
+  }
+
+  .hero {
+    height: 440px;
+  }
+
+  .hero-text {
+    width: 40%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container, .hero {
+    max-width: 990px;
+  }
+
+  .hero-content {
+    flex-direction: row;
+    height: 448px;
+  }
+
+  .hero-text {
+    width:40%;
+  }
+
+  .image-wrapper {
+    width: 100%;
+  }
+}
+
+@media (min-width: 375px){
+  .container, .hero {
+    max-width: 768px;
+  }
+}
+
+.dark-section {
+    background-color: #212121;
+    color: #eeeeee;
+    padding: 15px;
+}
+
+.light-section {
+    background-color: #eeeeee;
+    color: #212121;
+    padding: 15px;
+}
+
+.ul-unstyled {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    width: 20%;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*
+  ========================================
+  INDEX
+  ========================================
+*/
+.boxy {
+  max-width: 400px;
+  height: 400px;
+  background-color: gray;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.hero-image {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.image-fake {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(184, 160, 160, .5);
+}
+
+.index-project {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
