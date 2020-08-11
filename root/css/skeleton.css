@@ -31,8 +31,8 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 50rem;
-  margin: 0 8% 0;
+  max-width: 40rem;
+  margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
 .column,
@@ -51,7 +51,9 @@
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
-    width: 80%; }
+    width: 80%; 
+    margin: 0 8%;
+  }
   .column,
   .columns {
     margin-left: 4%; }
@@ -149,10 +151,6 @@ body {
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h2, h3, h4, h5, h6, li, p{
-  word-break: break-word;
-  hyphens: auto; 
-}
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -495,6 +493,7 @@ there.
 .hero-heading
 {
   font-size: 1.75rem;
+  font-weight: 400;
 }
 
 .hero-image {
@@ -512,6 +511,10 @@ there.
   .hero-image {
     max-width: 90%;
   }
+  .hero-heading
+  {
+    font-size: 2.4rem;
+  }
 
 }
 
@@ -522,6 +525,10 @@ there.
     margin-left: auto;
     margin-right: auto;
   }
+  .hero-heading
+  {
+    font-size: 2.4rem;
+  }
 }
 
 /* Bigger than 1000 */
@@ -530,10 +537,7 @@ there.
     padding: 8rem 0 7rem;
     text-align: left;
   }
-  .hero-heading
-  {
-    font-size: 2.4rem;
-  }
+
 }
 
 /* Navigation 
