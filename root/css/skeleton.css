@@ -481,3 +481,15 @@ a:hover:before {
   line-height: 300px;
   color: rgba(0,0, 0, 42%);
 }
+
+.card-thumbnails {
+  margin: 1rem 0;
+  max-width: 31.25rem;
+  max-height: 25rem; 
+  vertical-align: middle;
+  background-color: var(--brand-color-primary);
+}
+
+.card-title {
+  margin-top: var(--s1);
+}
