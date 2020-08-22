@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sidney Rhoads</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+</head>
+<body>
+    <header class="dark-section fixed-top">
+        <nav class="navigation">
+            <a id="navigation-logo" href="index.html">Sidney Rhoads</a>
+            <a href="index.html#work">Work</a> 
+            <a href="index.html#about">About</a>
+            <a href="#contact">Contact</a>  
+        </nav>
+    </header>
+    <main>
+        <div class="hero section dark-section">
+            <div class="container">
+                <h1>Researching AR for a travel and lifstyle company</h1>
+                <p>My Fave Places is a startup helping people remember favorite restaurants and destinations and share recommendations with friends through an iOS app. The company's long-term vision is to enable people to re-experience and connect with places they love from anywhere through mixed and virtual reality.I connected with My Fave Places through my UX program. </p>
+            </div>     
+        </div>
+        <div class="brand-section">
+            <img class="display-block u-max-full-width" alt="" src="assets/Curate-cover.png">
+        </div>
+        <div class="section dark-section">
+            <div class="container">
+                    <h2>The Challenge</h2>
+                    <p> I was tasked with creating an AR experience for My Fave Places and testing the concept with potential users.</p>
+            </div>     
+        </div>
+        <div class="section light-section">
+            <div class="container">
+                <h2>Understand</h2>
+                <p>I needed to learn more about how people currently maintained photos and what frustrations they felt.  I interviewed 6 people and analyzed the results, using an affinity map to find patterns in the data. 
+                </p>
+                <p>Here are 3 themes I discovered in the interviews.</p>
+                <h3>1. Rapidfire Photography</h3>
+                <p>People often take 3-10 photos of a subject to get the best shot, but then neglect to delete the extras later. 
+                </p>
+                <div class="row">
+                    <div class="six columns">
+                        <figure>
+                            <img class="u-max-full-width" alt="Google Photos app displaying 19 similar shots of Peruvian hills" src="assets/curate-screenshot-peru.png">
+                            <figcaption>Albums are filled with sequences of similar shots</figcaption>
+                        </figure>
+                    </div>
+                    <div class="six columns">
+                        <figure>
+                            <img class="u-max-full-width" alt="Google Photos app displaying 4 photos of a woman with a cat on her shoulders" src="assets/curate-screenshot-cat.png">
+                            <figcaption>People try to capture different angles and lighting</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <h3>2. It Means More When You Share It</h3>
+                <p>Sharing photos affects how people remember and feel about them. </p> 
+                <blockquote>Honestly, anything that I thought twice about, like, this was cool, I'm going to send this to someone else. And I'm sure those are the ones that I'm actually going to remember. – Joe
+                </blockquote>
+                <p>Every participant mentioned sending photos to others whether on social media or privately through messaging apps. People are more likely to recall a photo from memory if they've shared it with others.</p>
+                <h3>3. De-cluttering is Stressful</h3>
+                <p>Deleting photos is stressful. People fear if they delete the photo, they might forget the memories tied to them.</p>
+                <p>The process of decided which photos to delete is also stressful.</p>                 
+                <blockquote>It's hard to compare them on the phone when you're swiping. It's much easier to do on a computer. – Ian
+                </blockquote>
+                <p>Comparing similar photos specifically is tedious to do on a phone.</p>
+            </div>     
+        </div>
+        <div class="section dark-section">
+            <div class="container">
+                <h2>Defining the Experience</h2>
+                <p>The interviews and research defined what I wanted the experience to be like and how I wanted to help. My primary experience came down to these goals: 
+                </p>
+                <h3>Design Goals</h3>
+                <ul class="ul-unstyled">
+                    <li>💪 &nbsp Empower people to take control of cloud photo storage.</li>
+                    <li>❤️ &nbsp Make important photos and memories accessible.</li>
+                    <li>👍 &nbsp Make choosing photos to keep is easy and less stressful. </li>
+                </ul>
+            </div>     
+        </div>
+        <div class="section light-section">
+            <div class="container">
+                <h2>Brainstorming the MVP</h2>
+                <p>After sketching concepts and creating a feature list, I had to narrow the scope to create a minimum viable prototype (MVP). Putting a prototype in users' hands early on means that I can validate my features are what they actually need. 
+                </p>
+                <h3>Priority Features</h3>
+                <ul>
+                    <li>Sort similar/related photos together guide cleaning.</li>
+                    <li>Suggesting goals and showing progress.</li>
+                    <li>Have others help you vote on the best shots. </li>
+                </ul>
+                <p>A few tasks left behind involved seeing your progress.  At the time, progress felt too simple and was left out over risker features to test. In retrospect, I should have left this task in for testing because it impacted user's percieved usefulness of the app later.</p>
+            </div>     
+        </div>
+        <div class="section grey-section">
+            <div class="container">
+                <h2>Prototyping</h2>
+                <p>Usability testing prototypes with real people allowed me to validate and iterate over my designs. 
+                </p>
+                <div class="row">
+                    <div class="four columns"><p><strong>Round 1: </strong>Test concept desirability and understanding. Am I on the right track?</p></div>
+                    <div class="four columns"><p><strong>Round 2: </strong>Test for understanding and usability in mid-fidelity. </p></div>
+                    <div class="four columns"><p><strong>Round 3: </strong>High fidelity. Fix usability issues and validate improvements.</p>
+                    </div>
+                </div>
+                <h2>Findings</h2>
+                <h3>Comparing Photos</h3>
+                <p>Early iterations were complicated and cluttered so I split the actions like swapping out a photo</p>
+                <figure>
+                    <img class="u-max-full-width" src="assets/usability_test_compare.png" alt="Two Pixel 2 Phones showing a side by side compare of photos">
+                    <figcaption>Left: compare screen during usability round 1 causes cognitive overload.  Right: compare screen from usability round 3 is simplified by chaning the flow to swap out a photo.</figcaption>
+                </figure><br>
+                <h3>Voting on Photos</h3>
+                <p>Surprisingly, voting resonated the most with usability testers. It was exciting to hear them describe new situations they could have used it like collaborating on albums with friends or getting approval from others before posting on social media.</p>
+                <figure>
+                    <img class="u-max-full-width" src="assets/usability_test_compare.png" alt="Two Pixel 2 Phones showing a side by side compare of photos">
+                    <figcaption>Left: message screen with votes during usability round 1.  Right: the smaller icons had no negative impact on visibilty.</figcaption>
+                </figure><br>
+                <h3>What was missing?</h3>
+                <blockquote>Giving a little bit of feedback as they whittle down their photos could go a long way. 
+                    – Jeremy</blockquote>
+                <p>Ah! As I forshadowed in brainstorming, I left out a feature that tracked progress as you used the app. In round 3 of usability testing, I learned that this feature might be more important than I first guessed. </p>
+                <h3>Why does progress matter?</h3> 
+                <p>Progress would help to communicate the value of using Curate. For example, it might describe the <b>number of photos deleted</b>, or the <b>amount of space saved on the device.</b> How progress is displayed would have to be tested and validated to ensure it's meaningful to users and helps them feel motivated. </p>
+
+                <p>I suspect this was revealed in the high-fidelity prototype because participants could more acurately consider how the app might fit in their lives. Were I to moving forward with Curate, I would consider how to make Curate more valuable.</p>
+            </div>
+        </div>
+        <div class="section dark-section">
+            <div class="container">
+                <h2>Next Steps</h2>
+                <p>I would consider the design of the <em>entire</em> app's experience. I prioritized testing a few big features, and missed some opportunities to make the app more engaging. There were also several interesting oppotunities revealed in the voting/messenger features that I would consider researching next. 
+                </p>
+            </div>              
+        </div>
+        <div class="section light-section">
+            <div class="container">
+                <h2>What I learned from Curate</h2>
+                <p><strong>Lean into familiar design patterns.</strong> This is partially why the voting feature was so successful. It resembled something people already use daily and extended it in a intuitive way.
+                </p>
+                <p><strong>Think about how people feel while using a service.</strong> Since working on Curate, I've been facinated about conversational and emotional design. 
+                </p>
+                <p><strong>I am not my user.</strong> To me, Curate’s value was obvious because I had poured over the research. But new users need clarity in how the product benefits them.
+                </p> 
+            </div>              
+        </div>
+    </main>
+    <footer class="section footer light-section" id="contact">
+        <div class="container">
+            <p> If you have questions, feedback or want to discuss more, please get in touch!
+            I’m open to opportunities :)</p>
+            <p class="tagline">sidneydrhoads@gmail.com</p>
+            <div class="inline">
+                <a class="highlight" href="https://twitter.com/siddrho">Twitter</a>
+                <a class="highlight" href="https://www.linkedin.com/in/sidneyrhoads/">LinkedIn</a>
+                <a class="highlight" href="assets/Regular_Resume_Product_Designer_SidneyRhoads.pdf" target="_blank">Résumé</a>
+            </div>
+            <p class="faint small">Designed and built by me. 2020</p>
+        </div>
+    </footer>    
+</body>
+</html>

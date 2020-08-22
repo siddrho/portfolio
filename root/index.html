@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <title>Sidney Rhoads</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
 </head>
 <body>
     <header class="dark-section fixed-top">
-        <nav class="navigation">
+        <nav class="navigation container">
             <a id="navigation-logo" href="index.html">Sidney Rhoads</a>
             <a href="#work">Work</a> 
             <a href="#about">About</a>
@@ -26,7 +25,8 @@
                         <img class="u-max-full-width hero-image"src="https://via.placeholder.com/500">
                     </div>-->
                     <div>
-                        <h1 class="hero-heading">Hi, I'm Sidney. <br>I'm a digital product designer and developer based in San Francisco, CA.</h1>
+                        <p class="hero-eyebrow">Hi, I'm Sidney Rhoads. Product designer based in San Francisco, CA.</p>
+                        <h1 class="hero-heading">I prototype, test and occasionally develop digital products that are accessible. </h1>
                     </div>
                 <!--</div>-->
             </div>     
@@ -34,24 +34,31 @@
         <div class="section light-section" id="work">
             <div class="container">
                 <h2 class="section-heading">Work</h2>
-                <div class="project-card">
-                    <div class="coming-soon-placeholder">Coming Soon!</div> 
-                        <h3>Exploring Augmented Reality for Social Wanderlust</h3>
-                        <p>My Fave Places, 2020</p>
-                </div>
-                <div class="project-card">
-                    <img class="card-thumbnails" src="assets/Curate-cover.png">
-                    <h3 class="card-title"><a href="curate.html" class="my-title-link">Mobile Design for Curating Photos</a></h3>
-                    <p>Springboard Project, 2019-2020</p>
-                </div>
-                <div class="project-card">
-                    <div class="coming-soon-placeholder">Coming Soon!</div>
-                    <h3>Design Sprint to Improve Cooking for a Recipe App</h3>
-                    <p>Springboard Project, 2020</p>
-                </div>
+                <ul class="card-container">
+                    <li class="card">
+                        <img class="card-img" alt="" src="assets/mfp/AR_cover.jpg"/>
+                        <div class="card-content">
+                            <h3>
+                            <a href="my-fave-places.html">Exploring Augmented Reality for My Fave Places</a>
+                            </h3>
+                          <p class="card-descriptions">
+                            How might augmented reality help users engage and and discover and share new places?
+                          </p>
+                        </div>
+                    </li>
+                      <li class="card">
+                        <img class="card-img" alt="" src="assets/Curate-cover.png"/>
+                        <div class="card-content">
+                          <h3><a href="curate.html">Designing a Photo Management Application</a></h3>
+                          <p>
+                            How might we empower people to take control of photo storage?
+                          </p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class=" section dark-section" id="about">
+        <div class=" section dark-section highlight" id="about">
             <div class="container">
                 <h2 class="section-heading">About</h2>
                 <p>As a designer, I prioritize research and testing to fail fast and solve the right problems. I’m interested in bridging that gap between development and design in web products and accessbility. 
@@ -67,7 +74,7 @@
             </div>
         </div>
     </main>
-    <footer class="section footer light-section" id="contact">
+    <footer class="section footer light-section highlight" id="contact">
         <div class="container">
             <p> If you have questions, feedback or want to discuss more, please get in touch!
             I’m open to opportunities :)</p>
